@@ -1,0 +1,86 @@
+body{
+  font-family: 'Be Vietnam', sans-serif;
+}
+p{
+  text-align: justify;
+  letter-spacing: -1px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.intro{
+  font-weight: bolder;
+}
+
+img{
+  height: 200px !important;
+  width: 100% !important;
+  object-fit: cover;
+  border-radius:0 20px 0 20px ;
+  
+}
+.card{
+  border: none !important;
+}
+.box{
+  /* box-shadow:  0 6px 11px 0  rgba(0,0,0,0.2), 0  8px 22px 0  rgba(0,0,0,0.19); */
+  border-radius:0 20px 0 20px ;
+  /* box-shadow:0 10px 10px 5px grey; */
+  box-shadow:0 10px 10px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+
+h4{
+  white-space: nowrap;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+
+.checked {
+  color: orange;
+ 
+}
+
+.unchecked{
+  color:grey;
+}
+
+#rating1{
+  font-size: 14px;
+  padding-left:18px ;
+}
+
+button{
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 17px 32px;
+ 
+  font-size: 16px;
+
+  border-radius:20px 0  0 0 ; 
+
+}
+
+
+
+
+
+.btn{
+  background-color: orange;
+margin: 4px 2px;
+font-size: 16px;
+padding: 10px 24px;
+}
+.flex-parent{
+  display: flex;
+  
+}
+
+.center{
+  justify-content: center;
+}
+
